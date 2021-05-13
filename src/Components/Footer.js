@@ -1,10 +1,14 @@
 import React from 'react';
 
 export const Footer = () => {
+  const footerStyle = {
+    backgroundColor: "rgba(255,255,255,0.1)",
+    height: "25px"
+  }
   return (
-    <footer className="bg-dark text-light">
-      <p className="text-center py-2">
-        Copyright &copy; Todo-List | @suryansh098
+    <footer className="text-light" style={footerStyle}>
+      <p className="text-center">
+        Copyright &copy; Todo-List | Suryansh Yadav
       </p>
     </footer>
   );

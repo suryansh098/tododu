@@ -1,9 +1,8 @@
 import './App.css';
 import {Header} from "./Components/Header";
-import {AddTodo} from "./Components/AddTodo";
-import {TodoList} from "./Components/TodoList";
-import {Footer} from "./Components/Footer";
+import {Home} from "./Components/Home";
 import {About} from "./Components/About";
+import {Footer} from "./Components/Footer";
 import React, {useState, useEffect} from 'react';
 import {
   BrowserRouter as Router,
@@ -48,25 +47,21 @@ function App() {
   }, [todos]);
 
   const appStyle = {
-    minHeight: "100vh",
     display: "flex",
-    flexDirection: "column"
+    flexDirection: "column",
+    minHeight: "100vh",
+    background: "linear-gradient(45deg, #F9F871, #007160)",
   };
 
   return (
     <div style={appStyle}>
       <Router>
-        <Header title="TODO-LIST" searchbar={false} />
+        <Header title="TODODU" searchbar={false} />
         <Switch>
-          <Route exact path="/" render={() => {
-            return (
-              <>
-                <TodoList todos={todos} onDelete={onDelete} />
-                <AddTodo addTodo={addTodo} />
-            </>)
-          }}>
+          <Route exact path="/" >
+            <Home todos={todos} onDelete={onDelete} addTodo={addTodo} />
           </Route>
-          <Route exact path="/about">
+          <Route exact path="/about" >
             <About />
           </Route>
         </Switch>
