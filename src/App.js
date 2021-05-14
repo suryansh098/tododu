@@ -55,7 +55,7 @@ function App() {
 
   return (
     <div style={appStyle}>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Header title="TODODU" searchbar={false} />
         <Switch>
           <Route exact path="/" >
