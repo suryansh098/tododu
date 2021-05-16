@@ -55,13 +55,13 @@ function App() {
 
   return (
     <div style={appStyle}>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <Header title="TODODU" searchbar={false} />
         <Switch>
-          <Route exact path="/" >
+          <Route exact path="/todo-list-react/" >
             <Home todos={todos} onDelete={onDelete} addTodo={addTodo} />
           </Route>
-          <Route exact path="/about" >
+          <Route exact path="/todo-list-react/about" >
             <About />
           </Route>
         </Switch>
