@@ -58,7 +58,7 @@ function App() {
       <Router>
         <Header title="TODODU" searchbar={false} />
         <Switch>
-          <Route exact path="/todo-list-react/" >
+          <Route exact path="/todo-list-react" >
             <Home todos={todos} onDelete={onDelete} addTodo={addTodo} />
           </Route>
           <Route exact path="/todo-list-react/about" >
