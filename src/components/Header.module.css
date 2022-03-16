@@ -1,0 +1,35 @@
+.app__header {
+  width: 90%;
+  margin-block: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app__header h1 {
+  text-transform: uppercase;
+  color: #426696;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 5px;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin: 5px;
+}
+
+.options select {
+  padding: 6px 9px;
+  outline: none;
+  border: 1px solid #65dfc9;
+  border-radius: 5px;
+}
+
+.options select > option {
+  padding: 6px 9px;
+}
