@@ -1,23 +1,13 @@
 {
   "files": {
-    "main.css": "/tododu/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/tododu/static/js/main.ad45242b.chunk.js",
-    "main.js.map": "/tododu/static/js/main.ad45242b.chunk.js.map",
-    "runtime-main.js": "/tododu/static/js/runtime-main.7d3aa2d6.js",
-    "runtime-main.js.map": "/tododu/static/js/runtime-main.7d3aa2d6.js.map",
-    "static/js/2.98985546.chunk.js": "/tododu/static/js/2.98985546.chunk.js",
-    "static/js/2.98985546.chunk.js.map": "/tododu/static/js/2.98985546.chunk.js.map",
-    "static/js/3.3208434c.chunk.js": "/tododu/static/js/3.3208434c.chunk.js",
-    "static/js/3.3208434c.chunk.js.map": "/tododu/static/js/3.3208434c.chunk.js.map",
+    "main.css": "/tododu/static/css/main.4f505a6b.css",
+    "main.js": "/tododu/static/js/main.93881f5d.js",
     "index.html": "/tododu/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/tododu/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.98985546.chunk.js.LICENSE.txt": "/tododu/static/js/2.98985546.chunk.js.LICENSE.txt",
-    "static/media/logo.8a169f74.png": "/tododu/static/media/logo.8a169f74.png"
+    "main.4f505a6b.css.map": "/tododu/static/css/main.4f505a6b.css.map",
+    "main.93881f5d.js.map": "/tododu/static/js/main.93881f5d.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.7d3aa2d6.js",
-    "static/js/2.98985546.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.ad45242b.chunk.js"
+    "static/css/main.4f505a6b.css",
+    "static/js/main.93881f5d.js"
   ]
 }
